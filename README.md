@@ -2,6 +2,13 @@
 
 Tool to help running other programs (i.e. Cheat Engine) inside Steam's proton.
 
+### Download for Fedora
+
+Download the rpm from [releases](https://github.com/hamburgerghini1/protonhax-fedora/releases/download/1.0.5/Protonhax-fedora-1.0.5-1.fc41.noarch.rpm)
+
+Or [from copr](https://copr.fedorainfracloud.org/coprs/hamburgerghini1/Protonhax-fedora/)
+`sudo dnf copr enable hamburgerghini1/Protonhax-fedora`
+
 ## Usage
 Set the steam game launch options to `protonhax init %COMMAND%`
 
@@ -33,9 +40,6 @@ NOTE: The PATH variable is ignored
 2. Copy the **protonhax** file to where you preffer and give it permission to execute:
     - Example of locations `$HOME/.local/bin/protonhax`, `/usr/bin/protonhax`. They need to be on your $PATH
     - Permission `chmod 755 protonhax`.
-
-### Fedora
-Download the rpm from [releases](https://github.com/hamburgerghini1/protonhax-fedora/releases/download/1.0.5/Protonhax-fedora-1.0.5-1.fc41.noarch.rpm)
 
 ### Arch Linux
 - https://aur.archlinux.org/packages/protonhax
