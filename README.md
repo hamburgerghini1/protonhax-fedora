@@ -34,6 +34,9 @@ NOTE: The PATH variable is ignored
     - Example of locations `$HOME/.local/bin/protonhax`, `/usr/bin/protonhax`. They need to be on your $PATH
     - Permission `chmod 755 protonhax`.
 
+### Fedora
+Download the rpm from [releases](https://github.com/hamburgerghini1/protonhax-fedora/releases/download/1.0.5/Protonhax-fedora-1.0.5-1.fc41.noarch.rpm)
+
 ### Arch Linux
 - https://aur.archlinux.org/packages/protonhax
 - https://aur.archlinux.org/packages/protonhax-git/
